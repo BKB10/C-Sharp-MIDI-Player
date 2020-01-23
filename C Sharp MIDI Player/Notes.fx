@@ -2,7 +2,7 @@
 
 struct VS_IN
 {
-    float4 pos : POSITION;
+    float2 pos : POSITION;
     float4 col : COLOR;
 };
 

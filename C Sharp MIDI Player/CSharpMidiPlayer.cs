@@ -10,6 +10,8 @@ namespace C_Sharp_MIDI_Player
         [STAThread]
         public static void Main() {
             new MainWindow().ShowDialog();
+            return;
+
 
             MidiLoader loader = new MidiLoader("F:/Music/Black MIDIs/Evans LOLEX MODE II 4.0.mid");
 
